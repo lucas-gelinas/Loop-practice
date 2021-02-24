@@ -11,8 +11,8 @@ function check () {
   number2 = document.getElementById('input2').value
   number2 = parseInt(number2)
 
-  for (counter; counter < number2; counter ++) {
-  halifax = halifax + number1
+  for (counter; counter < number2; counter++) {
+    halifax = halifax + number1
   }
   document.getElementById('answer').innerHTML = halifax
 }
